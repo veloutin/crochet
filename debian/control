@@ -1,0 +1,18 @@
+Source: crochet
+Section: python
+Priority: optional
+Maintainer: Itamar Turner-Trauring <itamar@futurefoundries.com>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9), python-all (>= 2.6.6.3~), python-sphinx,
+    python-twisted-core (>= 11.1)
+
+Package: crochet
+Architecture: all
+Suggests: crochet-docs
+Depends: ${python:Depends}, python-twisted-core (>= 11.1)
+Description: Use Twisted from threaded applications
+
+Package: crochet-docs
+Architecture: all
+Description: Crochet html docs
+Depends: ${sphinxdoc:Depends}
