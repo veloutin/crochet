@@ -1,3 +1,19 @@
+crochet (1.0.0) precise; urgency=low
+
+  [Docs]
+  * Added section on use cases and alternatives. Thanks to Tobias Oberstein
+    for the suggestion.
+
+  [Bug Fixes]
+  * Twisted does not have to be pre-installed to run ``setup.py``, thanks to
+    Paul Weaver for bug report and Chris Scutcher for patch.
+  * Importing Crochet does not have side-effects (installing reactor event)
+    any more.
+  * Blocking calls are interrupted earlier in the shutdown process, to reduce
+    scope for deadlocks. Thanks to rmorehead for bug report.
+
+ -- Vincent Vinet <vvinet@revolutionlinux.com>  Mon, 16 Dec 2013 10:25:24 -0500
+
 crochet (0.9.0) precise; urgency=low
 
   * Create debian package

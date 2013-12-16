@@ -1,7 +1,8 @@
 Source: crochet
 Section: python
 Priority: optional
-Maintainer: Itamar Turner-Trauring <itamar@futurefoundries.com>
+Maintainer: Vincent Vinet <vince.vinet@gmail.com>
+Homepage: https://crochet.readthedocs.org/
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 9), python-all (>= 2.6.6.3~), python-sphinx,
     python-twisted-core (>= 11.1)
